@@ -14,4 +14,4 @@ def test_version():
     So, why not, let's test for that.
     """
     version = cards.__version__
-    assert re.match(r"\d+\.\d+\.x", version)
+    assert re.match(r"\d+\.\d+\.\d+", version)
